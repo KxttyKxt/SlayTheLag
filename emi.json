@@ -1,0 +1,27 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "emiffect:effect:foodoverhaulvanillafoods:cake_food_effect",
+    "emiffect:effect:foodoverhaulvanillafoods:chicken_food_effect",
+    "emiffect:effect:foodoverhaulvanillafoods:chorus_fruit_food_effect",
+    "item:minecraft:chicken",
+    "item:archers:auto_fire_hook",
+    "item:jewelry:emerald_necklace",
+    "item:jewelry:diamond_necklace",
+    "item:jewelry:gem_vein",
+    "item:jewelry:topaz",
+    "item:paladins:stone_claymore",
+    "item:paladins:crusader_armor_chest",
+    "item:paladins:paladin_armor_head",
+    "item:paladins:priest_robe_chest",
+    "item:paladins:paladin_armor_chest"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
