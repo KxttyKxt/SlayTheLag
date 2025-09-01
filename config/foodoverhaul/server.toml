@@ -1,0 +1,5 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+allow_eating_food_with_no_food_effect = true
+food_effect_duration_threshold_to_allow_eating = 200
+item_cooldown_after_eating = 5

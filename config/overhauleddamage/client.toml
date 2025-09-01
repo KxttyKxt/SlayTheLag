@@ -1,0 +1,647 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[bleedingBuildUpSettings]
+bar_display = "ICON"
+show_empty_bar = false
+origin = "MIDDLE_MIDDLE"
+fill_direction = "LEFT_TO_RIGHT"
+dynamic_offset_increase_x = 0
+dynamic_offset_increase_y = 6
+show_icon = false
+show_number = false
+
+[bleedingBuildUpSettings.iconBarSettings]
+offset_x = 91
+offset_y = -39
+max_icon_amount_per_bar = 10
+reverse_stack_direction = true
+
+[bleedingBuildUpSettings.smoothBarSettings]
+show_current_value_overlay = false
+enable_smooth_animation = true
+
+[bleedingBuildUpSettings.smoothBarSettings.positionSettings]
+offsets_x = [
+    [ 0, -31 ]
+]
+offsets_y = [
+    [ 0, 18 ]
+]
+
+[bleedingBuildUpSettings.smoothBarSettings.textureSettings]
+
+[bleedingBuildUpSettings.smoothBarSettings.textureSettings.backgroundTextureSettings]
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_bleeding_background.png" ]
+]
+
+[bleedingBuildUpSettings.smoothBarSettings.textureSettings.progressTextureSettings]
+offset_x = 0
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+progress_decrease_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_bleeding_progress_decrease_animation.png" ]
+]
+progress_increase_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_bleeding_progress_increase_animation.png" ]
+]
+progress_increase_value_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_bleeding_progress_increase_value.png" ]
+]
+progress_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_bleeding_progress.png" ]
+]
+
+[bleedingBuildUpSettings.smoothBarSettings.textureSettings.overlayTextureSettings]
+offset_x = -2
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 5 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_bleeding_overlay.png" ]
+]
+
+[bleedingBuildUpSettings.smoothBarSettings.animationSettings]
+animation_interval = 1
+max_value_change_is_animated = false
+
+[bleedingBuildUpSettings.iconTextureSettings]
+offset_x = 0
+offset_y = 0
+show_when_bar_empty = false
+texture_heights = [
+    [ 0, 0 ]
+]
+texture_widths = [
+    [ 0, 0 ]
+]
+texture_ids = [  ]
+
+[bleedingBuildUpSettings.numberSettings]
+offset_x = 0
+offset_y = 17
+show_max_value = false
+show_when_bar_empty = false
+
+[bleedingBuildUpSettings.numberSettings.color]
+# Red component, 0 to 255
+r = 150
+# Green component, 0 to 255
+g = 150
+# Blue component, 0 to 255
+b = 150
+
+[burnBuildUpSettings]
+bar_display = "ICON"
+show_empty_bar = false
+origin = "MIDDLE_MIDDLE"
+fill_direction = "LEFT_TO_RIGHT"
+dynamic_offset_increase_x = 0
+dynamic_offset_increase_y = 6
+show_icon = false
+show_number = false
+
+[burnBuildUpSettings.iconBarSettings]
+offset_x = 91
+offset_y = -39
+max_icon_amount_per_bar = 10
+reverse_stack_direction = true
+
+[burnBuildUpSettings.smoothBarSettings]
+show_current_value_overlay = false
+enable_smooth_animation = true
+
+[burnBuildUpSettings.smoothBarSettings.positionSettings]
+origin = "MIDDLE_MIDDLE"
+offsets_x = [
+    [ 0, -31 ]
+]
+offsets_y = [
+    [ 0, 18 ]
+]
+
+[burnBuildUpSettings.smoothBarSettings.textureSettings]
+
+[burnBuildUpSettings.smoothBarSettings.textureSettings.backgroundTextureSettings]
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_burn_background.png" ]
+]
+
+[burnBuildUpSettings.smoothBarSettings.textureSettings.progressTextureSettings]
+offset_x = 0
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+progress_decrease_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_burn_progress_decrease_animation.png" ]
+]
+progress_increase_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_burn_progress_increase_animation.png" ]
+]
+progress_increase_value_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_burn_progress_increase_value.png" ]
+]
+progress_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_burn_progress.png" ]
+]
+
+[burnBuildUpSettings.smoothBarSettings.textureSettings.overlayTextureSettings]
+offset_x = -2
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 5 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_burn_overlay.png" ]
+]
+
+[burnBuildUpSettings.smoothBarSettings.animationSettings]
+animation_interval = 1
+max_value_change_is_animated = false
+
+[burnBuildUpSettings.iconTextureSettings]
+offset_x = 0
+offset_y = 0
+show_when_bar_empty = false
+texture_heights = [
+    [ 0, 0 ]
+]
+texture_widths = [
+    [ 0, 0 ]
+]
+texture_ids = [  ]
+
+[burnBuildUpSettings.numberSettings]
+offset_x = 0
+offset_y = 17
+show_max_value = false
+show_when_bar_empty = false
+
+[burnBuildUpSettings.numberSettings.color]
+# Red component, 0 to 255
+r = 150
+# Green component, 0 to 255
+g = 150
+# Blue component, 0 to 255
+b = 150
+
+[freezeBuildUpSettings]
+bar_display = "ICON"
+show_empty_bar = false
+origin = "MIDDLE_MIDDLE"
+fill_direction = "LEFT_TO_RIGHT"
+dynamic_offset_increase_x = 0
+dynamic_offset_increase_y = 6
+show_icon = false
+show_number = false
+
+[freezeBuildUpSettings.iconBarSettings]
+offset_x = 91
+offset_y = -39
+max_icon_amount_per_bar = 10
+reverse_stack_direction = true
+
+[freezeBuildUpSettings.smoothBarSettings]
+fill_direction = "LEFT_TO_RIGHT"
+show_current_value_overlay = false
+enable_smooth_animation = true
+
+[freezeBuildUpSettings.smoothBarSettings.positionSettings]
+origin = "MIDDLE_MIDDLE"
+offsets_x = [
+    [ 0, -31 ]
+]
+offsets_y = [
+    [ 0, 18 ]
+]
+
+[freezeBuildUpSettings.smoothBarSettings.textureSettings]
+
+[freezeBuildUpSettings.smoothBarSettings.textureSettings.backgroundTextureSettings]
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_freeze_background.png" ]
+]
+
+[freezeBuildUpSettings.smoothBarSettings.textureSettings.progressTextureSettings]
+offset_x = 0
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+progress_decrease_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_freeze_progress_decrease_animation.png" ]
+]
+progress_increase_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_freeze_progress_increase_animation.png" ]
+]
+progress_increase_value_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_freeze_progress_increase_value.png" ]
+]
+progress_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_freeze_progress.png" ]
+]
+
+[freezeBuildUpSettings.smoothBarSettings.textureSettings.overlayTextureSettings]
+offset_x = -2
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 5 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_freeze_overlay.png" ]
+]
+
+[freezeBuildUpSettings.smoothBarSettings.animationSettings]
+animation_interval = 1
+max_value_change_is_animated = false
+
+[freezeBuildUpSettings.iconTextureSettings]
+offset_x = 0
+offset_y = 0
+show_when_bar_empty = false
+texture_heights = [
+    [ 0, 0 ]
+]
+texture_widths = [
+    [ 0, 0 ]
+]
+texture_ids = [  ]
+
+[freezeBuildUpSettings.numberSettings]
+offset_x = 0
+offset_y = 17
+show_max_value = false
+show_when_bar_empty = false
+
+[freezeBuildUpSettings.numberSettings.color]
+# Red component, 0 to 255
+r = 150
+# Green component, 0 to 255
+g = 150
+# Blue component, 0 to 255
+b = 150
+
+[poisonBuildUpSettings]
+bar_display = "ICON"
+show_empty_bar = false
+origin = "MIDDLE_MIDDLE"
+fill_direction = "LEFT_TO_RIGHT"
+dynamic_offset_increase_x = 0
+dynamic_offset_increase_y = 6
+show_icon = false
+show_number = false
+
+[poisonBuildUpSettings.iconBarSettings]
+offset_x = 91
+offset_y = -39
+max_icon_amount_per_bar = 10
+reverse_stack_direction = true
+
+[poisonBuildUpSettings.smoothBarSettings]
+fill_direction = "LEFT_TO_RIGHT"
+show_current_value_overlay = false
+enable_smooth_animation = true
+
+[poisonBuildUpSettings.smoothBarSettings.positionSettings]
+origin = "MIDDLE_MIDDLE"
+offsets_x = [
+    [ 0, -31 ]
+]
+offsets_y = [
+    [ 0, 18 ]
+]
+
+[poisonBuildUpSettings.smoothBarSettings.textureSettings]
+
+[poisonBuildUpSettings.smoothBarSettings.textureSettings.backgroundTextureSettings]
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_poison_background.png" ]
+]
+
+[poisonBuildUpSettings.smoothBarSettings.textureSettings.progressTextureSettings]
+offset_x = 0
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+progress_decrease_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_poison_progress_decrease_animation.png" ]
+]
+progress_increase_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_poison_progress_increase_animation.png" ]
+]
+progress_increase_value_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_poison_progress_increase_value.png" ]
+]
+progress_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_poison_progress.png" ]
+]
+
+[poisonBuildUpSettings.smoothBarSettings.textureSettings.overlayTextureSettings]
+offset_x = -2
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 5 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_poison_overlay.png" ]
+]
+
+[poisonBuildUpSettings.smoothBarSettings.animationSettings]
+animation_interval = 1
+max_value_change_is_animated = false
+
+[poisonBuildUpSettings.iconTextureSettings]
+offset_x = 0
+offset_y = 0
+show_when_bar_empty = false
+texture_heights = [
+    [ 0, 0 ]
+]
+texture_widths = [
+    [ 0, 0 ]
+]
+texture_ids = [  ]
+
+[poisonBuildUpSettings.numberSettings]
+offset_x = 0
+offset_y = 17
+show_max_value = false
+show_when_bar_empty = false
+
+[poisonBuildUpSettings.numberSettings.color]
+# Red component, 0 to 255
+r = 150
+# Green component, 0 to 255
+g = 150
+# Blue component, 0 to 255
+b = 150
+
+[shockBuildUpSettings]
+bar_display = "ICON"
+show_empty_bar = false
+origin = "MIDDLE_MIDDLE"
+fill_direction = "LEFT_TO_RIGHT"
+dynamic_offset_increase_x = 0
+dynamic_offset_increase_y = 6
+show_icon = false
+show_number = false
+
+[shockBuildUpSettings.iconBarSettings]
+offset_x = 91
+offset_y = -39
+max_icon_amount_per_bar = 10
+reverse_stack_direction = true
+
+[shockBuildUpSettings.smoothBarSettings]
+fill_direction = "LEFT_TO_RIGHT"
+show_current_value_overlay = false
+enable_smooth_animation = true
+
+[shockBuildUpSettings.smoothBarSettings.positionSettings]
+origin = "MIDDLE_MIDDLE"
+offsets_x = [
+    [ 0, -31 ]
+]
+offsets_y = [
+    [ 0, 18 ]
+]
+
+[shockBuildUpSettings.smoothBarSettings.textureSettings]
+
+[shockBuildUpSettings.smoothBarSettings.textureSettings.backgroundTextureSettings]
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_shock_background.png" ]
+]
+
+[shockBuildUpSettings.smoothBarSettings.textureSettings.progressTextureSettings]
+offset_x = 0
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+progress_decrease_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_shock_progress_decrease_animation.png" ]
+]
+progress_increase_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_shock_progress_increase_animation.png" ]
+]
+progress_increase_value_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_shock_progress_increase_value.png" ]
+]
+progress_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_shock_progress.png" ]
+]
+
+[shockBuildUpSettings.smoothBarSettings.textureSettings.overlayTextureSettings]
+offset_x = -2
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 5 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_shock_overlay.png" ]
+]
+
+[shockBuildUpSettings.smoothBarSettings.animationSettings]
+animation_interval = 1
+max_value_change_is_animated = false
+
+[shockBuildUpSettings.iconTextureSettings]
+offset_x = 0
+offset_y = 0
+show_when_bar_empty = false
+texture_heights = [
+    [ 0, 0 ]
+]
+texture_widths = [
+    [ 0, 0 ]
+]
+texture_ids = [  ]
+
+[shockBuildUpSettings.numberSettings]
+offset_x = 0
+offset_y = 17
+show_max_value = false
+show_when_bar_empty = false
+
+[shockBuildUpSettings.numberSettings.color]
+# Red component, 0 to 255
+r = 150
+# Green component, 0 to 255
+g = 150
+# Blue component, 0 to 255
+b = 150
+
+[staggerBuildUpSettings]
+bar_display = "ICON"
+show_empty_bar = false
+origin = "MIDDLE_MIDDLE"
+fill_direction = "LEFT_TO_RIGHT"
+dynamic_offset_increase_x = 0
+dynamic_offset_increase_y = 6
+show_icon = false
+show_number = false
+
+[staggerBuildUpSettings.iconBarSettings]
+offset_x = 91
+offset_y = -39
+max_icon_amount_per_bar = 10
+reverse_stack_direction = true
+
+[staggerBuildUpSettings.smoothBarSettings]
+fill_direction = "LEFT_TO_RIGHT"
+show_current_value_overlay = false
+enable_smooth_animation = true
+
+[staggerBuildUpSettings.smoothBarSettings.positionSettings]
+origin = "MIDDLE_MIDDLE"
+offsets_x = [
+    [ 0, -31 ]
+]
+offsets_y = [
+    [ 0, 18 ]
+]
+
+[staggerBuildUpSettings.smoothBarSettings.textureSettings]
+
+[staggerBuildUpSettings.smoothBarSettings.textureSettings.backgroundTextureSettings]
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_stagger_background.png" ]
+]
+
+[staggerBuildUpSettings.smoothBarSettings.textureSettings.progressTextureSettings]
+offset_x = 0
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 62 ]
+]
+progress_decrease_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_stagger_progress_decrease_animation.png" ]
+]
+progress_increase_animation_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_stagger_progress_increase_animation.png" ]
+]
+progress_increase_value_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_stagger_progress_increase_value.png" ]
+]
+progress_texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_stagger_progress.png" ]
+]
+
+[staggerBuildUpSettings.smoothBarSettings.textureSettings.overlayTextureSettings]
+offset_x = -2
+offset_y = 0
+texture_heights = [
+    [ 0, 5 ]
+]
+texture_widths = [
+    [ 0, 5 ]
+]
+texture_ids = [
+    [ 0, "overhauleddamage:textures/gui/sprites/hud/horizontal_stagger_overlay.png" ]
+]
+
+[staggerBuildUpSettings.smoothBarSettings.animationSettings]
+animation_interval = 1
+max_value_change_is_animated = false
+
+[staggerBuildUpSettings.iconTextureSettings]
+offset_x = 0
+offset_y = 0
+show_when_bar_empty = false
+texture_heights = [
+    [ 0, 0 ]
+]
+texture_widths = [
+    [ 0, 0 ]
+]
+texture_ids = [  ]
+
+[staggerBuildUpSettings.numberSettings]
+offset_x = 0
+offset_y = 17
+show_max_value = false
+show_when_bar_empty = false
+
+[staggerBuildUpSettings.numberSettings.color]
+# Red component, 0 to 255
+r = 150
+# Green component, 0 to 255
+g = 150
+# Blue component, 0 to 255
+b = 150

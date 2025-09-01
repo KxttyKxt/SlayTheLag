@@ -1,0 +1,6 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enable_health_regeneration_overhaul_compatibility = true
+enable_mana_attributes_compatibility = true
+enable_overhauled_damage_compatibility = true
+enable_stamina_attributes_compatibility = true

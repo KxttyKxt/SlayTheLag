@@ -1,0 +1,148 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+damage_interrupts_item_usage = true
+enable_hit_stun_mechanic = true
+disable_jump_crit_mechanic = true
+
+[hitStun]
+attribute = "overhauleddamage:generic.max_stagger_build_up"
+hit_stun_status_effect_identifier = "variousstatuseffects:hit_stun"
+hit_stun_settings = [
+    [ "overhauleddamage:mob_slashing_damage_type", { duration = 0, required_attribute_threshold = 0.0 } ]
+]
+
+[hitStun.default_hit_stun_settings]
+duration = 1
+required_attribute_threshold = 0.0
+
+[damageTypes]
+damage_type_multipliers = [
+    [ "minecraft:thorns", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:hot_floor", { generic = 0.0, bashing = 0.0, piercing = 0.0, slashing = 0.0, poison = 0.0, fire = 1.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:lightning_bolt", { generic = 0.0, bashing = 0.0, piercing = 0.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 1.0 } ],
+    [ "minecraft:mob_attack", { generic = 0.0, bashing = 1.0, piercing = 0.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:fireball", { generic = 0.0, bashing = 1.0, piercing = 0.0, slashing = 0.0, poison = 0.0, fire = 1.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:stalagmite", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "overhauleddamage:mob_bashing_damage_type", { generic = 0.0, bashing = 1.0, piercing = 0.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:in_fire", { generic = 0.0, bashing = 0.0, piercing = 0.0, slashing = 0.0, poison = 0.0, fire = 1.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:arrow", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "overhauleddamage:mob_piercing_damage_type", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "overhauleddamage:mob_slashing_damage_type", { generic = 0.0, bashing = 0.0, piercing = 0.0, slashing = 1.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:cactus", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:sweet_berry_bush", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:falling_stalactite", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:sting", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 1.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ],
+    [ "minecraft:trident", { generic = 0.0, bashing = 0.0, piercing = 1.0, slashing = 0.0, poison = 0.0, fire = 0.0, frost = 0.0, lightning = 0.0 } ]
+]
+
+[damageTypes.default_damage_type_multipliers]
+generic = 1.0
+bashing = 0.0
+piercing = 0.0
+slashing = 0.0
+poison = 0.0
+fire = 0.0
+frost = 0.0
+lightning = 0.0
+
+[damageCalculation]
+blocking_requires_stamina = true
+enable_blocking_overhaul = true
+enable_protection_overhaul = true
+enable_armor_overhaul = true
+enable_debug_log = false
+
+[damageCalculation.blockingOverhaul]
+blocked_damage_calculation_works_with_flat_values = false
+total_block_force_multiplier = 1.0
+
+[damageCalculation.blockingOverhaul.negative_block_force_multipliers]
+generic = 0.0
+bashing = 0.75
+piercing = 0.5
+slashing = 0.5
+poison = 0.0
+fire = 0.0
+frost = 0.0
+lightning = 0.0
+
+[damageCalculation.protectionOverhaul]
+protection_damage_reduction_per_level = 2.0
+
+[damageCalculation.protectionOverhaul.protection_multipliers]
+generic = 1.0
+bashing = 1.0
+piercing = 0.5
+slashing = 0.6
+poison = 0.0
+fire = 1.0
+frost = 0.0
+lightning = 0.0
+
+[damageCalculation.armorOverhaul]
+armor_calculation_works_with_flat_values = false
+enable_armor_toughness_attribute = false
+
+[damageCalculation.armorOverhaul.armor_multipliers]
+generic = 1.0
+bashing = 1.0
+piercing = 0.5
+slashing = 1.5
+poison = 0.0
+fire = 1.0
+frost = 0.0
+lightning = 0.0
+
+[damageCalculation.bleeding_multipliers]
+generic = 0.0
+bashing = 0.0
+piercing = 0.5
+slashing = 0.5
+poison = 0.0
+fire = 0.0
+frost = 0.0
+lightning = 0.0
+
+[damageCalculation.stagger_multipliers]
+generic = 0.0
+bashing = 0.75
+piercing = 0.5
+slashing = 0.5
+poison = 0.0
+fire = 0.0
+frost = 0.0
+lightning = 0.5
+
+[damageCalculation.applied_damage_multipliers]
+generic = 1.0
+bashing = 1.0
+piercing = 1.0
+slashing = 1.25
+poison = 0.0
+fire = 0.0
+frost = 0.0
+lightning = 0.0
+
+[buildUpEffects]
+bleeding_status_effect_identifier = "variousstatuseffects:bleeding"
+should_bleeding_duration_be_additive = false
+should_bleeding_amplifier_be_additive = false
+burn_status_effect_identifier = "variousstatuseffects:burning"
+should_burn_duration_be_additive = true
+should_burn_amplifier_be_additive = false
+chilled_status_effect_identifier = "variousstatuseffects:chilled"
+chilled_duration_multiplier = 1.0
+should_chilled_duration_be_additive = false
+should_chilled_amplifier_be_additive = false
+freeze_status_effect_identifier = "variousstatuseffects:frozen"
+should_freeze_duration_be_additive = false
+should_freeze_amplifier_be_additive = false
+poison_status_effect_identifier = "variousstatuseffects:poison"
+should_poison_duration_be_additive = false
+should_poison_amplifier_be_additive = true
+shock_status_effect_identifier = "variousstatuseffects:shocked"
+should_shock_duration_be_additive = false
+should_shock_amplifier_be_additive = false
+stagger_status_effect_identifier = "variousstatuseffects:staggered"
+should_stagger_duration_be_additive = false
+should_stagger_amplifier_be_additive = false
