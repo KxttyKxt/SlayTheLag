@@ -2,8 +2,7 @@
   "cache": {
     "rpg_series:loot_tier/tier_1_accessories": [
       "jewelry:emerald_necklace",
-      "jewelry:diamond_necklace",
-      "rpgmana:unsetring"
+      "jewelry:diamond_necklace"
     ],
     "rpg_series:archetype/healing_weapon": [
       "arsenal:unique_staff_heal_1",
@@ -214,12 +213,7 @@
       "jewelry:citrine_necklace",
       "jewelry:jade_necklace",
       "jewelry:sapphire_necklace",
-      "jewelry:tanzanite_necklace",
-      "rpgmana:ceruleanring",
-      "rpgmana:iolitering",
-      "rpgmana:onyxring",
-      "rpgmana:vermillionring",
-      "rpgmana:manaflow_medallion"
+      "jewelry:tanzanite_necklace"
     ],
     "rpg_series:loot_tier/tier_4_accessories": [
       "jewelry:unique_attack_ring",
@@ -253,12 +247,7 @@
       "jewelry:netherite_citrine_necklace",
       "jewelry:netherite_jade_necklace",
       "jewelry:netherite_sapphire_necklace",
-      "jewelry:netherite_tanzanite_necklace",
-      "rpgmana:onyx_awakened",
-      "rpgmana:vermillion_awakened",
-      "rpgmana:cerulean_awakened",
-      "rpgmana:iolite_awakened",
-      "rpgmana:eye_of_the_storm"
+      "jewelry:netherite_tanzanite_necklace"
     ],
     "rpg_series:archetype/melee_damage_weapon": [
       "arsenal:unique_claymore_1",

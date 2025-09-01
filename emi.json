@@ -1,9 +1,17 @@
 {
   "favorites": [],
   "lookup_history": [
-    "emiffect:effect:foodoverhaulvanillafoods:cake_food_effect",
-    "emiffect:effect:foodoverhaulvanillafoods:chicken_food_effect",
-    "emiffect:effect:foodoverhaulvanillafoods:chorus_fruit_food_effect",
+    "item:wizards:fire_robe_head",
+    "item:wizards:wizard_robe_head",
+    "item:rogues:rogue_armor_feet",
+    "item:rogues:rogue_armor_legs",
+    "item:rogues:rogue_armor_chest",
+    "item:rogues:rogue_armor_head",
+    "item:wizards:wand_novice",
+    "item:wizards:staff_wizard",
+    "item:wizards:wand_arcane",
+    "item:jewelry:iron_ring",
+    "item:paladins:iron_kite_shield",
     "item:minecraft:chicken",
     "item:archers:auto_fire_hook",
     "item:jewelry:emerald_necklace",
@@ -16,7 +24,18 @@
     "item:paladins:priest_robe_chest",
     "item:paladins:paladin_armor_chest"
   ],
-  "craft_history": [],
+  "craft_history": [
+    "minecraft:oak_planks",
+    "minecraft:furnace",
+    "minecraft:torch",
+    "runes:fire_rune_small_hand",
+    "minecraft:stone_axe",
+    "minecraft:stick",
+    "minecraft:stone_pickaxe",
+    "wizards:wand_novice",
+    "minecraft:crafting_table",
+    "minecraft:wooden_pickaxe"
+  ],
   "recipe_defaults": {
     "added": [],
     "tags": {},
