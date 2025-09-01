@@ -1,9 +1,9 @@
 # Don't change this! Version used to track needed updates.
 version = 0
 item_use_cooldown_when_no_stamina = 20
-jumping_requires_stamina = true
+jumping_requires_stamina = false
 sprinting_requires_stamina = true
-swimming_requires_stamina = true
+swimming_requires_stamina = false
 players_can_exhaust = true
 exhausted_status_effect_identifier = "variousstatuseffects:exhausted"
 
@@ -22,5 +22,5 @@ natural_swimming_tick_stamina_cost = 0.0
 natural_walking_underwater_tick_stamina_cost = 0.0
 natural_walking_in_water_tick_stamina_cost = 0.05
 natural_climbing_tick_stamina_cost = 0.05
-natural_action_stamina_cost_sprint_jumping = 1.0
-natural_action_stamina_cost_jumping = 1.0
+natural_action_stamina_cost_sprint_jumping = 0.0
+natural_action_stamina_cost_jumping = 0.0

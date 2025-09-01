@@ -2,7 +2,7 @@
 	// Maximum Mana Modifier (Default: 1)
 	"mana": 1.0,
 	// ADD_VALUEal Base Mana (Default: 0)
-	"basemana": 0.0,
+	"basemana": 50.0,
 	// Mana Regen Modifier (Default: 1)
 	"manaregen": 1.0,
 	// Inspiration Bonus (Default: 10%)
